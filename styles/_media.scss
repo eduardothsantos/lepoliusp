@@ -33,6 +33,7 @@
   .row-reverse-mb {flex-wrap: wrap;}
 
   .inicio {
+    background-size: 200%;
     &-card {
       width: 700px;
       &-titulo {
@@ -59,10 +60,17 @@
 
 @media only screen and (min-width: 990px) {
   .inicio {
+    background-size: 140%;
     justify-content: left;
     align-items: flex-start;
     &-card {
       margin: 200px 0 0 60px;
     }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .inicio {
+    background-size: 120%;
   }
 }

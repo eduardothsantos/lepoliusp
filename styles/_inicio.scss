@@ -1,6 +1,5 @@
 .inicio {
   display: flex;
-  position: relative;
   width: 100%;
   height: 100vh;
   background-color: $inicio_fundo;
@@ -8,6 +7,11 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  background-image: url('../public/img/inicio-detalhes.svg');
+  background-position: -300px 0;
+  background-repeat : no-repeat;
+  background-size: 300%;
+  overflow: hidden;
   
   &-card {
     width: 90%;
@@ -19,7 +23,7 @@
       clear: both;
       font-family: 'Century Gothic';
       font-weight: bold;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
     &-texto {
       clear: both;
